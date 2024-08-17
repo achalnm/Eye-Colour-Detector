@@ -32,7 +32,7 @@
         </li>
     </ol>
     <h2>Social Links</h2>
-    <p>Connect with the developer:</p>
+    <p>Made by Achal N</p>
     <ul>
         <li><a href="https://github.com/achalnm" target="_blank">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/achal-n-35153821b/" target="_blank">LinkedIn</a></li>
