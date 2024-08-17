@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Color Detector - Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+<body>
+    <header>
+        <h1>EYE COLOR DETECTOR</h1>
+        <p>Check the detected eye color below.</p>
+    </header>
+    <div class="container">
+        <h2>Detected Eye Color</h2>
+        <div class="result">{{ result }}</div>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image">
+        </div>
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <div class="field">
+                <button type="submit" class="button">Upload Another</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Created by ACHAL N </p>
+        <div class="social-links">
+            <a href="https://github.com/achalnm" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/achal-n-35153821b/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/achal_n26/" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
